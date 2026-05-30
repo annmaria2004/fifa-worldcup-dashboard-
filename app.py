@@ -13,7 +13,7 @@ st.set_page_config(
 # LOAD DATA
 # =====================
 
-base_path = "/content/drive/MyDrive/FIFA_WorldCup_Project/dashboard_data"
+base_path = "dashboard_data"
 
 # Historical Data
 champions = pd.read_csv(f"{base_path}/champions.csv")
